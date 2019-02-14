@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
-import styles from './App.module.scss'
+import './App.scss'
 import logo from './logo.svg'
 
 class App extends Component {
   public render() {
     return (
-      <div className={ styles.App }>
-        <header className={ styles.AppHeader }>
-          <img src={ logo } className={ styles.AppLogo } alt="logo" />
+      <div className="app">
+        <header className="app-header">
+          <img src={ logo } className="app-logo" alt="logo" />
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
           </p>
           <a
-            className={ styles.AppLink }
+            className="app-link"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
